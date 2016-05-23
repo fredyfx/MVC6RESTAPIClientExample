@@ -1,0 +1,25 @@
+﻿
+@model MVC6ApiClientExample.Models.Album
+
+@{
+    ViewBag.Title = "Album Detail";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+    <a asp-controller="Albums" asp-action="Index" class="btn btn-primary">Back to List</a>
+</p>
+
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Artist</th>
+    </tr>
+    <tr>
+        <td>@Model.Title</td>
+        <td>@Model.Artist</td>
+    </tr>
+</table>
+
+<a asp-controller="Albums" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit this Album</a>
