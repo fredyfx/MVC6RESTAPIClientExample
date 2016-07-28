@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace MVC6ApiClientExampleRC2
+namespace MVC6ApiClientExample
 {
     public class Startup
     {

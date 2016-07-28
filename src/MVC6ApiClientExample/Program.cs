@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 
-namespace MVC6ApiClientExampleRC2
+namespace MVC6ApiClientExample
 {
     public class Program
     {
